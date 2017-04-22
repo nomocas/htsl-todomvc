@@ -1,7 +1,7 @@
 # htsl-todomvc
 
-[![Travis branch](https://img.shields.io/travis/nomocas/htsl-dom-pragmatics/master.svg)](https://travis-ci.org/nomocas/htsl-dom-pragmatics)
-[![bitHound Overall Score](https://www.bithound.io/github/nomocas/htsl-dom-pragmatics/badges/score.svg)](https://www.bithound.io/github/nomocas/htsl-dom-pragmatics)
+[![Travis branch](https://img.shields.io/travis/nomocas/htsl-todomvc/master.svg)](https://travis-ci.org/nomocas/htsl-todomvc)
+[![bitHound Overall Score](https://www.bithound.io/github/nomocas/htsl-todomvc/badges/score.svg)](https://www.bithound.io/github/nomocas/htsl-todomvc)
 
 htsl ToDoMVC demo.
 
