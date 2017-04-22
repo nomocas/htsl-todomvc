@@ -1,9 +1,9 @@
-# babelute-html-todomvc
+# htsl-todomvc
 
-[![Travis branch](https://img.shields.io/travis/nomocas/babelute-html-dom-pragmatics/master.svg)](https://travis-ci.org/nomocas/babelute-html-dom-pragmatics)
-[![bitHound Overall Score](https://www.bithound.io/github/nomocas/babelute-html-dom-pragmatics/badges/score.svg)](https://www.bithound.io/github/nomocas/babelute-html-dom-pragmatics)
+[![Travis branch](https://img.shields.io/travis/nomocas/htsl-dom-pragmatics/master.svg)](https://travis-ci.org/nomocas/htsl-dom-pragmatics)
+[![bitHound Overall Score](https://www.bithound.io/github/nomocas/htsl-dom-pragmatics/badges/score.svg)](https://www.bithound.io/github/nomocas/htsl-dom-pragmatics)
 
-Babelute-html ToDoMVC demo.
+htsl ToDoMVC demo.
 
 ## Licence
 

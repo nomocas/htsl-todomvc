@@ -680,8 +680,8 @@ var FirstLevel = function (_Babelute) {
 /*
 * @Author: Gilles Coomans
 * @Date:   2017-03-10 13:25:25
-* @Last Modified by:   Gilles Coomans
-* @Last Modified time: 2017-04-03 13:49:36
+* @Last Modified by:   gilles
+* @Last Modified time: 2017-04-22 19:23:01
 */
 
 var Initializer = function () {
@@ -1434,7 +1434,7 @@ function castNodeValueTo(node, type) {
  * html lexicon
  * @type {Lexicon}
  * @public
- * @see  https://github.com/nomocas/babelute-html
+ * @see  https://github.com/nomocas/htsl
  */
 var htmlLexicon = index$2.createLexicon('html');
 
@@ -2365,7 +2365,7 @@ htmlLexicon.addAliases({
  * @type {Pragmatics}
  * @todo  addTargetLexicon(lexicon) => catch name for _targets + store lexicon reference for one level developement : no more need to register lexicons globally
  * @example
- * import difPragmas from 'babelute-html-dom-diffing-pragmatics';
+ * import difPragmas from 'htsl-dom-diffing-pragmatics';
  * import htmlLexicon from 'babelute-hstml/src/html-lexicon.js';
  *
  * const h = htmlLexicon.initializer(true); // FirtsLevel initializer

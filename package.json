@@ -1,7 +1,7 @@
 {
-  "name": "babelute-html-todomvc",
+  "name": "htsl-todomvc",
   "version": "0.1.1",
-  "description": "todomvc demo for babelute-html",
+  "description": "todomvc demo for htsl",
   "main": "dist/bundles/index.js",
   "module": "dist/bundles/index.mjs",
   "jsnext:main": "dist/bundles/index.mjs",
@@ -20,15 +20,15 @@
     "instrument": false
   },
   "keywords": [
-    "babelute-html",
+    "htsl",
     "todomvc"
   ],
   "author": "Gilles Coomans",
   "license": "MIT",
   "dependencies": {
     "event-emitter-es6": "^1.1.5",
-    "babelute-html-dom-diffing-pragmatics": "^0.3.0",
-    "babelute-html-lexicon": "^0.2.3"
+    "htsl-dom-diffing-pragmatics": "^0.3.0",
+    "htsl-lexicon": "^0.2.3"
   },
   "devDependencies": {
     "assert": "^1.4.1",

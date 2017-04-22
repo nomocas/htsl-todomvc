@@ -3,7 +3,7 @@
  * @author Gilles Coomans
  */
 
-import htmlLexicon from 'babelute-html-lexicon';
+import htmlLexicon from 'htsl-lexicon';
 
 const todomvcLexicon = htmlLexicon.createDialect('todomvc');
 
