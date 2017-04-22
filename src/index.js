@@ -24,7 +24,7 @@ store.on('update', (state) => {
 	if (animFrame)
 		cancelAnimationFrame(animFrame);
 	animFrame = requestAnimationFrame(() => {
-		oldRendered = differ.$output($root, h.todomvc(state.todos, state.route, state.methods), oldRendered);
+		oldRendered = h.todomvc(state.todos, state.route, state.methods).$render($root, oldRendered);
 	});
 });
 
@@ -32,7 +32,7 @@ store.on('update', (state) => {
 
 // simple hashchange binding for routing
 function hashChange() {
-	store.route = window.location.hash.substring(2) || 'all';
+	store.route = window.location.hash.substring(2) || 'all'; // @TODO: do it better
 	store.emit('update', store);
 }
 window.onhashchange = hashChange;
